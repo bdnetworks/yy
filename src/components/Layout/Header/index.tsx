@@ -74,7 +74,19 @@ const Header: React.FC = () => {
       className={`fixed top-0 z-40 w-full pb-5 transition-all duration-300 bg-white ${sticky ? " shadow-lg py-5" : "shadow-none py-6"
         }`}
     >
-      <div className="lg:py-0 py-2">
+     <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="https://themewagon.github.io/elearning/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="https://themewagon.github.io/elearning/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://themewagon.github.io/elearning/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="https://themewagon.github.io/elearning/css/style.css" rel="stylesheet"> <div className="lg:py-0 py-2">
         <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-between px-4">
           <Logo />
           <nav className="hidden lg:flex flex-grow items-center gap-8 justify-center">
